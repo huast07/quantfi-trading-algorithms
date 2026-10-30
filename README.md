@@ -126,14 +126,20 @@ The two v4 files differ only in which pairs the gate may choose from:
   This drops JELLY for every strategy except S5, VOUCHER_6800, and S6's FRUIT_BASKET, MANGOSTEEN and PEANUT_BUTTER.
 - **`trader_v4_allpairs.py`:** every strategy on every product it supports, including S6 on all five new instruments; the gate alone decides.
 
-| Build | Quick suite | vs v3 (95% CI) | Real days | ms per tick |
-|---|---:|---|---:|---:|
-| v3 | 228,604 | - | 417,692 | 2.3 |
-| v4, eligible pairs | 227,677 | -927 | **428,022** | 2.4 |
-| v4, all pairs | **235,264** | **+6,659 [5,013, 8,301]** | 417,689 | 3.2 |
+| Build | Quick suite (tuning) | Held-out (judging) | Held-out vs v3 (95% CI) | Worst held-out seed | Real days | ms per tick |
+|---|---:|---:|---|---:|---:|---:|
+| v3 | 228,604 | 147,033 | - | **83,670** | 417,692 | 2.3 |
+| v4, eligible pairs | 227,677 | 143,778 | -3,255 | 81,882 | **428,022** | 2.4 |
+| v4, all pairs | **235,264** | **148,792** | **+1,760 [859, 2,570]** | 80,674 | 417,689 | 3.2 |
 
-The two v4 variants trade off synthetic against real evidence: the extra pairs make money on generated days but lose on most real days.
-Held-out judging on seeds 3-5 decides which version is submitted.
+The v4 settings were chosen on the quick suite, so their quick-suite lead is optimistic; the held-out seeds were never used for any choice.
+On them, the all-pairs gate beats v3 by a small but significant 1.2%, almost all of it from extra strategies on JELLY.
+The eligible-pairs build loses about 3,300, mostly by dropping VOUCHER_6800, which pays on generated days and loses on all three real days.
+Its real-day lead is partly in-sample, because its eligibility filter was chosen on those same real days.
+
+Acceptance rule, fixed before tuning: replace v3 only if a v4 build matches its held-out PnL, its worst held-out seed (83,670), stays positive on every real day and has no breaches.
+Neither v4 build passes the worst-seed test, so `trader.py` stays v3.
+The gate's lasting result is negative but useful: with per-product limits and a market that rewards structure, one well-chosen owner per product already captures nearly all the available edge.
 
 ## 6. Repository layout
 
