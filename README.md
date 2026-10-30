@@ -5,7 +5,7 @@ Each submission is a single self-contained `trader.py` that runs on a Prosperity
 
 | File | Version | One line |
 |---|---|---|
-| `trader.py` | v3 | The current submission: a fixed-routing orchestrator, one owner strategy per product |
+| `trader.py` | v3 | The submission: a fixed-routing orchestrator, one owner strategy per product; it won held-out judging on worst-case robustness |
 | `trader_v3.py` | v3 | Byte-identical copy of `trader.py`, kept for side-by-side comparison |
 | `trader_v4.py` | v4 (eligible pairs) | Live risk-gated orchestrator over the strategy/product pairs that are profitable on both synthetic and real days |
 | `trader_v4_allpairs.py` | v4 (all pairs) | The same gate with every pair available, letting the gate alone choose |
