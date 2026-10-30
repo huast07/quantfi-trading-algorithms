@@ -1,0 +1,38 @@
+{
+ "subs": {
+  "S6": "strategies/S6/trader.py"
+ },
+ "routes": {
+  "FRUIT_BASKET": [
+   [
+    "S6",
+    1.0
+   ]
+  ],
+  "DRAGONFRUIT": [
+   [
+    "S6",
+    1.0
+   ]
+  ],
+  "GRANADILLA": [
+   [
+    "S6",
+    1.0
+   ]
+  ],
+  "MANGOSTEEN": [
+   [
+    "S6",
+    1.0
+   ]
+  ],
+  "PEANUT_BUTTER": [
+   [
+    "S6",
+    1.0
+   ]
+  ]
+ },
+ "gate": {}
+}

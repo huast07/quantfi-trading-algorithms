@@ -1,0 +1,48 @@
+
+### strategies/S2/trader.py  WEIGHTED 21,713
+  busy-day                    14,486 [12,522 16,450] br 0 ms 11.632  worst: FRUIT_ -2,330, GRANAD -2,236, BLUE_P -1,791
+  quiet-day                   12,391 [14,028 10,754] br 0 ms 18.074  worst: MANGOS -2,524, PEANUT -1,402, DRAGON -1,328
+  regular-day                 15,977 [11,553 20,402] br 0 ms 8.585  worst: PEANUT -2,176, LYCHEE -1,534, GRANAD -1,492
+  regular-day-varied          19,714 [20,226 19,200] br 0 ms 7.722  worst: GRANAD -1,606, LYCHEE -1,416, MANGOS -1,112
+  trends-continue             19,465 [16,246 22,685] br 0 ms 7.601  worst: PEANUT -2,176, LYCHEE -1,534, GRANAD -1,492
+  basket-dislocation          16,260 [11,400 21,120] br 0 ms 10.277  worst: PEANUT -2,176, LYCHEE -1,534, GRANAD -1,492
+  clustered-arrivals          12,572 [9,715 15,430] br 0 ms 7.284  worst: PEANUT -3,199, LYCHEE -2,795, GRANAD -1,469
+  correlation-breakdown      130,845 [120,441 141,248] br 0 ms 3.282  worst: PEANUT -2,176, LYCHEE -1,534, GRANAD -1,492
+  fat-tails                   15,330 [8,666 21,994] br 0 ms 1.313  worst: LYCHEE -3,099, FRUIT_ -2,096, GRANAD -2,012
+  golden-continues            22,523 [18,565 26,480] br 0 ms 2.971  worst: PEANUT -2,176, LYCHEE -1,534, GRANAD -1,492
+  golden-flat                 12,247 [8,528 15,966] br 0 ms 1.651  worst: PEANUT -2,176, LYCHEE -1,534, GRANAD -1,492
+  golden-reverses             16,736 [15,378 18,094] br 0 ms 1.551  worst: PEANUT -2,176, LYCHEE -1,534, GRANAD -1,492
+  heavy-flow                  13,912 [11,722 16,103] br 0 ms 2.488  worst: FRUIT_ -2,406, GRANAD -1,556, MANGOS -1,396
+  intraday-seasonality        18,467 [16,428 20,506] br 0 ms 1.988  worst: MANGOS -1,543, LYCHEE -977, BLUE_P -959
+  liquidity-drought            8,554 [1,618 15,490] br 0 ms 2.657  worst: MANGOS -2,178, JELLY -1,337, FRUIT_ -1,286
+  lychee-trend                16,334 [15,432 17,236] br 0 ms 1.914  worst: LYCHEE -3,547, PEANUT -2,176, GRANAD -1,492
+  mean-reversion-decay        16,262 [11,766 20,758] br 0 ms 1.584  worst: PEANUT -2,176, LYCHEE -1,534, GRANAD -1,492
+  momentum-crash              20,186 [13,931 26,441] br 0 ms 1.614  worst: PEANUT -2,176, LYCHEE -1,534, GRANAD -1,492
+  one-sided-flow              14,763 [6,026 23,500] br 0 ms 1.324  worst: JELLY -2,684, GRANAD -1,492, PEANUT -1,339
+  pearl-plug-weakens          13,250 [7,873 18,628] br 0 ms 1.074  worst: PEANUT -2,176, LYCHEE -1,534, GRANAD -1,492
+  pearl-sum-shift             18,478 [13,608 23,348] br 0 ms 1.229  worst: PEANUT -2,176, LYCHEE -1,534, GRANAD -1,492
+  regime-flip                 18,217 [9,994 26,440] br 0 ms 0.850  worst: LYCHEE -2,824, PEANUT -2,123, GRANAD -1,426
+  smile-flattens              15,977 [11,553 20,402] br 0 ms 1.177  worst: PEANUT -2,176, LYCHEE -1,534, GRANAD -1,492
+  smile-sticky-strike         15,977 [11,553 20,402] br 0 ms 1.384  worst: PEANUT -2,176, LYCHEE -1,534, GRANAD -1,492
+  tellurium-informed          15,977 [11,553 20,402] br 0 ms 1.402  worst: PEANUT -2,176, LYCHEE -1,534, GRANAD -1,492
+  tellurium-jumps-stick       15,977 [11,553 20,402] br 0 ms 0.892  worst: PEANUT -2,176, LYCHEE -1,534, GRANAD -1,492
+  tellurium-whipsaw           15,977 [11,553 20,402] br 0 ms 0.920  worst: PEANUT -2,176, LYCHEE -1,534, GRANAD -1,492
+  toxic-flow                  13,030 [7,428 18,632] br 0 ms 0.679  worst: GRANAD -2,134, PEANUT -1,752, LYCHEE -884
+  vol-clustering              17,080 [14,460 19,700] br 0 ms 1.749  worst: PEANUT -2,980, FRUIT_ -1,502, GRANAD -1,395
+  vol-crush                   15,977 [11,553 20,402] br 0 ms 1.790  worst: PEANUT -2,176, LYCHEE -1,534, GRANAD -1,492
+  vol-regime-switch           13,887 [11,620 16,155] br 0 ms 1.304  worst: PEANUT -6,754, FRUIT_ -2,134, BLACK_ -1,582
+  vol-spike-skew              15,977 [11,553 20,402] br 0 ms 1.000  worst: PEANUT -2,176, LYCHEE -1,534, GRANAD -1,492
+  wide-spreads                17,406 [14,693 20,118] br 0 ms 1.073  worst: PEANUT -4,212, MANGOS -2,598, GRANAD -1,776
+  anchor-break                15,897 [11,475 20,320] br 0 ms 1.625  worst: PEANUT -2,176, LYCHEE -1,534, GRANAD -1,492
+  black-swan-crash           110,740 [111,877 109,604] br 0 ms 1.133  worst: BLACK_ -24,508, WHITE_ -17,899, BLUE_P -6,126
+  black-swan-squeeze         127,733 [121,077 134,388] br 0 ms 1.161  worst: LYCHEE -13,837, PAPER_ -6,168, MANGOS -2,714
+  flash-crash                 25,914 [10,382 41,446] br 0 ms 1.080  worst: PEANUT -3,131, GRANAD -1,861, LYCHEE -1,620
+  liquidity-spiral            45,490 [43,770 47,210] br 0 ms 1.494  worst: BLACK_ -10,082, WHITE_ -6,802, TOFFEE -4,509
+  opening-gap                 36,496 [27,898 45,094] br 0 ms 1.340  worst: PEANUT -2,177, LYCHEE -1,528, GRANAD -1,492
+  quant-quake                133,154 [123,849 142,458] br 0 ms 0.815  worst: PEANUT -2,176, LYCHEE -1,534, GRANAD -1,492
+  tellurium-storm             15,977 [11,553 20,402] br 0 ms 1.080  worst: PEANUT -2,176, LYCHEE -1,534, GRANAD -1,492
+  vol-explosion               18,565 [14,159 22,970] br 0 ms 0.876  worst: PEANUT -3,986, GRANAD -2,071, FRUIT_ -2,060
+  real                        12,932 [15,552 13,568 9,674] br 0 ms 0.957  worst: JELLY -2,408, FRUIT_ -2,118, PEANUT -1,960
+  by product: AMETHY 500, TOFFEE 1,570, PAPER_ 575, JELLY 3,696, PEANUT -506, DRAGON 56, GRANAD -963, MANGOS -104, FRUIT_ 36, LYCHEE -650, WHITE_ 1,791, BLACK_ 2,020, GOLDEN 1,807, PINK_P 11,317, BLUE_P 568
+
+SUMMARY trader 21,713

@@ -1,0 +1,1 @@
+regular-day,regular-day-varied,quiet-day,busy-day,tellurium-informed,tellurium-jumps-stick,tellurium-storm,tellurium-whipsaw,fat-tails,vol-clustering,vol-explosion,vol-regime-switch,black-swan-crash,black-swan-squeeze,flash-crash,liquidity-drought,heavy-flow,wide-spreads

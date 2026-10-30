@@ -1,0 +1,10 @@
+
+### strategies/S2/trader.py  WEIGHTED 23,454
+  regular-day                 15,977 [11,553 20,402] br 0 ms 2.064  worst: PEANUT -2,176, LYCHEE -1,534, GRANAD -1,492
+  black-swan-crash           110,740 [111,877 109,604] br 0 ms 1.922  worst: BLACK_ -24,508, WHITE_ -17,899, BLUE_P -6,126
+  liquidity-spiral            45,490 [43,770 47,210] br 0 ms 0.911  worst: BLACK_ -10,082, WHITE_ -6,802, TOFFEE -4,509
+  momentum-crash              20,186 [13,931 26,441] br 0 ms 1.700  worst: PEANUT -2,176, LYCHEE -1,534, GRANAD -1,492
+  real                        12,932 [15,552 13,568 9,674] br 0 ms 1.304  worst: JELLY -2,408, FRUIT_ -2,118, PEANUT -1,960
+  by product: AMETHY 487, TOFFEE 1,239, PAPER_ 756, JELLY 4,508, PEANUT -1,211, DRAGON 426, GRANAD -972, MANGOS 253, FRUIT_ -212, LYCHEE -312, WHITE_ 1,010, BLACK_ 784, GOLDEN 1,520, PINK_P 15,083, BLUE_P 95
+
+SUMMARY trader 23,454

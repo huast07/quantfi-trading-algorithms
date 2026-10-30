@@ -1,0 +1,151 @@
+{
+ "subs": {
+  "S1": "strategies/S1/trader.py",
+  "S2": "strategies/S2/trader.py",
+  "S3": "strategies/S3/trader.py",
+  "S4": "strategies/S4/trader.py",
+  "S5": "strategies/S5/trader.py",
+  "REF": "strategies/reference_trader.py"
+ },
+ "routes": {
+  "TELLURIUM": [
+   [
+    "S4",
+    1.0
+   ]
+  ],
+  "LYCHEE": [
+   [
+    "S3",
+    1.0
+   ]
+  ],
+  "VOUCHER_6800": [
+   [
+    "S3",
+    1.0
+   ]
+  ],
+  "VOUCHER_7000": [
+   [
+    "S3",
+    1.0
+   ]
+  ],
+  "VOUCHER_7200": [
+   [
+    "S3",
+    1.0
+   ]
+  ],
+  "VOUCHER_7300": [
+   [
+    "S3",
+    1.0
+   ]
+  ],
+  "VOUCHER_7400": [
+   [
+    "S3",
+    1.0
+   ]
+  ],
+  "VOUCHER_7500": [
+   [
+    "S3",
+    1.0
+   ]
+  ],
+  "VOUCHER_7600": [
+   [
+    "S3",
+    1.0
+   ]
+  ],
+  "VOUCHER_7750": [
+   [
+    "S3",
+    1.0
+   ]
+  ],
+  "VOUCHER_7900": [
+   [
+    "S3",
+    1.0
+   ]
+  ],
+  "VOUCHER_8100": [
+   [
+    "S3",
+    1.0
+   ]
+  ],
+  "TOFFEE_CAKE": [
+   [
+    "S1",
+    1.0
+   ]
+  ],
+  "AMETHYST": [
+   [
+    "S1",
+    1.0
+   ]
+  ],
+  "PAPER_LANTERNS": [
+   [
+    "S1",
+    1.0
+   ]
+  ],
+  "PINK_PEARLS": [
+   [
+    "S2",
+    1.0
+   ]
+  ],
+  "GOLDEN_PEARLS": [
+   [
+    "S2",
+    1.0
+   ]
+  ],
+  "WHITE_PEARLS": [
+   [
+    "S1",
+    1.0
+   ]
+  ],
+  "BLACK_PEARLS": [
+   [
+    "S2",
+    1.0
+   ]
+  ],
+  "BLUE_PEARLS": [
+   [
+    "S2",
+    1.0
+   ]
+  ],
+  "JELLY": [
+   [
+    "S5",
+    1.0
+   ]
+  ]
+ },
+ "gate": {},
+ "options": {
+  "S4": {
+   "jump_guard": false,
+   "horizon": 600
+  },
+  "S3": {
+   "horizon": 300,
+   "exempt": [
+    "LYCHEE"
+   ]
+  }
+ }
+}

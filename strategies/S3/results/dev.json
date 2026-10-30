@@ -1,0 +1,1298 @@
+{
+ "suite": "dev",
+ "seeds": [
+  1,
+  2
+ ],
+ "rows": [
+  {
+   "strategy": "S3",
+   "weighted_pnl": 53785.9254563492,
+   "worst_case": "wide-spreads",
+   "worst_case_pnl": 30940.5,
+   "worst_seed_pnl": 7893.0,
+   "weak_cases": 6,
+   "mean_drawdown": 3097.5238095238096,
+   "limit_breaches": 0,
+   "crashes": 0,
+   "product_pnl": {
+    "AMETHYST": 0.0,
+    "BLACK_PEARLS": 0.0,
+    "BLUE_PEARLS": 0.0,
+    "DRAGONFRUIT": 0.0,
+    "FRUIT_BASKET": 0.0,
+    "GOLDEN_PEARLS": 0.0,
+    "GRANADILLA": 0.0,
+    "JELLY": 0.0,
+    "LYCHEE": -3752.3388492063486,
+    "MANGOSTEEN": 0.0,
+    "PAPER_LANTERNS": 0.0,
+    "PEANUT_BUTTER": 0.0,
+    "PINK_PEARLS": 0.0,
+    "TELLURIUM": 0.0,
+    "TOFFEE_CAKE": 0.0,
+    "VOUCHER_6800": 2705.721150793651,
+    "VOUCHER_7000": 5486.1644841269845,
+    "VOUCHER_7200": 8639.642936507931,
+    "VOUCHER_7300": 12066.922996031744,
+    "VOUCHER_7400": 3635.3004563492073,
+    "VOUCHER_7500": 9094.521567460313,
+    "VOUCHER_7600": 6429.108214285711,
+    "VOUCHER_7750": 4443.416249999998,
+    "VOUCHER_7900": 3466.0117261904757,
+    "VOUCHER_8100": 1571.454523809523,
+    "WHITE_PEARLS": 0.0
+   },
+   "cases": {
+    "busy-day": {
+     "tier": "observed",
+     "mean": 55663.25,
+     "worst": 53233.0,
+     "by_seed": {
+      "1": 58093.5,
+      "2": 53233.0
+     }
+    },
+    "quiet-day": {
+     "tier": "observed",
+     "mean": 53560.5,
+     "worst": 51665.5,
+     "by_seed": {
+      "1": 55455.5,
+      "2": 51665.5
+     }
+    },
+    "regular-day": {
+     "tier": "observed",
+     "mean": 54634.75,
+     "worst": 52192.5,
+     "by_seed": {
+      "1": 57077.0,
+      "2": 52192.5
+     }
+    },
+    "regular-day-varied": {
+     "tier": "observed",
+     "mean": 54887.75,
+     "worst": 52344.0,
+     "by_seed": {
+      "1": 57431.5,
+      "2": 52344.0
+     }
+    },
+    "trends-continue": {
+     "tier": "observed",
+     "mean": 54634.75,
+     "worst": 52192.5,
+     "by_seed": {
+      "1": 57077.0,
+      "2": 52192.5
+     }
+    },
+    "basket-dislocation": {
+     "tier": "plausible",
+     "mean": 54634.75,
+     "worst": 52192.5,
+     "by_seed": {
+      "1": 57077.0,
+      "2": 52192.5
+     }
+    },
+    "clustered-arrivals": {
+     "tier": "plausible",
+     "mean": 54461.75,
+     "worst": 51943.5,
+     "by_seed": {
+      "1": 56980.0,
+      "2": 51943.5
+     }
+    },
+    "correlation-breakdown": {
+     "tier": "plausible",
+     "mean": 54634.75,
+     "worst": 52192.5,
+     "by_seed": {
+      "1": 57077.0,
+      "2": 52192.5
+     }
+    },
+    "fat-tails": {
+     "tier": "plausible",
+     "mean": 52919.0,
+     "worst": 51213.5,
+     "by_seed": {
+      "1": 54624.5,
+      "2": 51213.5
+     }
+    },
+    "golden-continues": {
+     "tier": "plausible",
+     "mean": 54634.75,
+     "worst": 52192.5,
+     "by_seed": {
+      "1": 57077.0,
+      "2": 52192.5
+     }
+    },
+    "golden-flat": {
+     "tier": "plausible",
+     "mean": 54634.75,
+     "worst": 52192.5,
+     "by_seed": {
+      "1": 57077.0,
+      "2": 52192.5
+     }
+    },
+    "golden-reverses": {
+     "tier": "plausible",
+     "mean": 54634.75,
+     "worst": 52192.5,
+     "by_seed": {
+      "1": 57077.0,
+      "2": 52192.5
+     }
+    },
+    "heavy-flow": {
+     "tier": "plausible",
+     "mean": 56659.25,
+     "worst": 53490.5,
+     "by_seed": {
+      "1": 59828.0,
+      "2": 53490.5
+     }
+    },
+    "intraday-seasonality": {
+     "tier": "plausible",
+     "mean": 54404.0,
+     "worst": 52932.0,
+     "by_seed": {
+      "1": 55876.0,
+      "2": 52932.0
+     }
+    },
+    "liquidity-drought": {
+     "tier": "plausible",
+     "mean": 52463.25,
+     "worst": 49856.5,
+     "by_seed": {
+      "1": 55070.0,
+      "2": 49856.5
+     }
+    },
+    "lychee-trend": {
+     "tier": "plausible",
+     "mean": 54694.5,
+     "worst": 51802.0,
+     "by_seed": {
+      "1": 57587.0,
+      "2": 51802.0
+     }
+    },
+    "mean-reversion-decay": {
+     "tier": "plausible",
+     "mean": 54634.75,
+     "worst": 52192.5,
+     "by_seed": {
+      "1": 57077.0,
+      "2": 52192.5
+     }
+    },
+    "momentum-crash": {
+     "tier": "plausible",
+     "mean": 54634.75,
+     "worst": 52192.5,
+     "by_seed": {
+      "1": 57077.0,
+      "2": 52192.5
+     }
+    },
+    "one-sided-flow": {
+     "tier": "plausible",
+     "mean": 54626.25,
+     "worst": 51693.5,
+     "by_seed": {
+      "1": 57559.0,
+      "2": 51693.5
+     }
+    },
+    "pearl-plug-weakens": {
+     "tier": "plausible",
+     "mean": 54634.75,
+     "worst": 52192.5,
+     "by_seed": {
+      "1": 57077.0,
+      "2": 52192.5
+     }
+    },
+    "pearl-sum-shift": {
+     "tier": "plausible",
+     "mean": 54634.75,
+     "worst": 52192.5,
+     "by_seed": {
+      "1": 57077.0,
+      "2": 52192.5
+     }
+    },
+    "regime-flip": {
+     "tier": "plausible",
+     "mean": 54223.75,
+     "worst": 51478.0,
+     "by_seed": {
+      "1": 56969.5,
+      "2": 51478.0
+     }
+    },
+    "smile-flattens": {
+     "tier": "plausible",
+     "mean": 50858.25,
+     "worst": 47601.5,
+     "by_seed": {
+      "1": 54115.0,
+      "2": 47601.5
+     }
+    },
+    "smile-sticky-strike": {
+     "tier": "plausible",
+     "mean": 51489.0,
+     "worst": 50285.5,
+     "by_seed": {
+      "1": 52692.5,
+      "2": 50285.5
+     }
+    },
+    "tellurium-informed": {
+     "tier": "plausible",
+     "mean": 54634.75,
+     "worst": 52192.5,
+     "by_seed": {
+      "1": 57077.0,
+      "2": 52192.5
+     }
+    },
+    "tellurium-jumps-stick": {
+     "tier": "plausible",
+     "mean": 54634.75,
+     "worst": 52192.5,
+     "by_seed": {
+      "1": 57077.0,
+      "2": 52192.5
+     }
+    },
+    "tellurium-whipsaw": {
+     "tier": "plausible",
+     "mean": 54634.75,
+     "worst": 52192.5,
+     "by_seed": {
+      "1": 57077.0,
+      "2": 52192.5
+     }
+    },
+    "toxic-flow": {
+     "tier": "plausible",
+     "mean": 54429.25,
+     "worst": 51822.5,
+     "by_seed": {
+      "1": 57036.0,
+      "2": 51822.5
+     }
+    },
+    "vol-clustering": {
+     "tier": "plausible",
+     "mean": 52234.5,
+     "worst": 50533.0,
+     "by_seed": {
+      "1": 53936.0,
+      "2": 50533.0
+     }
+    },
+    "vol-crush": {
+     "tier": "plausible",
+     "mean": 51240.25,
+     "worst": 47196.0,
+     "by_seed": {
+      "1": 55284.5,
+      "2": 47196.0
+     }
+    },
+    "vol-regime-switch": {
+     "tier": "plausible",
+     "mean": 53565.5,
+     "worst": 53488.0,
+     "by_seed": {
+      "1": 53643.0,
+      "2": 53488.0
+     }
+    },
+    "vol-spike-skew": {
+     "tier": "plausible",
+     "mean": 55243.25,
+     "worst": 51993.5,
+     "by_seed": {
+      "1": 58493.0,
+      "2": 51993.5
+     }
+    },
+    "wide-spreads": {
+     "tier": "plausible",
+     "mean": 30940.5,
+     "worst": 28140.5,
+     "by_seed": {
+      "1": 28140.5,
+      "2": 33740.5
+     }
+    },
+    "anchor-break": {
+     "tier": "stress",
+     "mean": 54634.75,
+     "worst": 52192.5,
+     "by_seed": {
+      "1": 57077.0,
+      "2": 52192.5
+     }
+    },
+    "black-swan-crash": {
+     "tier": "stress",
+     "mean": 63588.25,
+     "worst": 45010.5,
+     "by_seed": {
+      "1": 82166.0,
+      "2": 45010.5
+     }
+    },
+    "black-swan-squeeze": {
+     "tier": "stress",
+     "mean": 38571.75,
+     "worst": 7893.0,
+     "by_seed": {
+      "1": 69250.5,
+      "2": 7893.0
+     }
+    },
+    "flash-crash": {
+     "tier": "stress",
+     "mean": 53957.5,
+     "worst": 50585.0,
+     "by_seed": {
+      "1": 57330.0,
+      "2": 50585.0
+     }
+    },
+    "liquidity-spiral": {
+     "tier": "stress",
+     "mean": 37060.0,
+     "worst": 26038.0,
+     "by_seed": {
+      "1": 48082.0,
+      "2": 26038.0
+     }
+    },
+    "opening-gap": {
+     "tier": "stress",
+     "mean": 42532.0,
+     "worst": 31965.0,
+     "by_seed": {
+      "1": 53099.0,
+      "2": 31965.0
+     }
+    },
+    "quant-quake": {
+     "tier": "stress",
+     "mean": 54230.0,
+     "worst": 48800.0,
+     "by_seed": {
+      "1": 59660.0,
+      "2": 48800.0
+     }
+    },
+    "tellurium-storm": {
+     "tier": "stress",
+     "mean": 54634.75,
+     "worst": 52192.5,
+     "by_seed": {
+      "1": 57077.0,
+      "2": 52192.5
+     }
+    },
+    "vol-explosion": {
+     "tier": "stress",
+     "mean": 52157.0,
+     "worst": 44781.0,
+     "by_seed": {
+      "1": 59533.0,
+      "2": 44781.0
+     }
+    }
+   },
+   "verdicts": {
+    "busy-day": {
+     "rating": "strong",
+     "reason": "+55,663 mean; of which VOUCHER_7300 +13,136; edge over reference +65,726, well above its usual +55,289; beats reference on every seed; beats reference on every seed"
+    },
+    "quiet-day": {
+     "rating": "neutral",
+     "reason": "+53,560 mean; of which VOUCHER_7300 +11,315; beats reference on every seed; beats reference on every seed"
+    },
+    "regular-day": {
+     "rating": "neutral",
+     "reason": "+54,635 mean; of which VOUCHER_7300 +12,230; beats reference on every seed; beats reference on every seed"
+    },
+    "regular-day-varied": {
+     "rating": "neutral",
+     "reason": "+54,888 mean; of which VOUCHER_7300 +12,683; beats reference on every seed; beats reference on every seed"
+    },
+    "trends-continue": {
+     "rating": "neutral",
+     "reason": "+54,635 mean; of which VOUCHER_7300 +12,230; beats reference on every seed; beats reference on every seed"
+    },
+    "basket-dislocation": {
+     "rating": "neutral",
+     "reason": "+54,635 mean; of which VOUCHER_7300 +12,230; beats reference on every seed; beats reference on every seed"
+    },
+    "clustered-arrivals": {
+     "rating": "strong",
+     "reason": "+54,462 mean; of which VOUCHER_7300 +12,230; edge over reference +64,504, well above its usual +55,289; beats reference on every seed; beats reference on every seed"
+    },
+    "correlation-breakdown": {
+     "rating": "neutral",
+     "reason": "+54,635 mean; of which VOUCHER_7300 +12,230; beats reference on every seed; beats reference on every seed"
+    },
+    "fat-tails": {
+     "rating": "neutral",
+     "reason": "+52,919 mean; of which VOUCHER_7300 +12,174; beats reference on every seed; beats reference on every seed"
+    },
+    "golden-continues": {
+     "rating": "neutral",
+     "reason": "+54,635 mean; of which VOUCHER_7300 +12,230; beats reference on every seed; beats reference on every seed"
+    },
+    "golden-flat": {
+     "rating": "neutral",
+     "reason": "+54,635 mean; of which VOUCHER_7300 +12,230; beats reference on every seed; beats reference on every seed"
+    },
+    "golden-reverses": {
+     "rating": "neutral",
+     "reason": "+54,635 mean; of which VOUCHER_7300 +12,230; beats reference on every seed; beats reference on every seed"
+    },
+    "heavy-flow": {
+     "rating": "strong",
+     "reason": "+56,659 mean; of which VOUCHER_7300 +12,328; edge over reference +64,870, well above its usual +55,289; beats reference on every seed; beats reference on every seed"
+    },
+    "intraday-seasonality": {
+     "rating": "neutral",
+     "reason": "+54,404 mean; of which VOUCHER_7300 +12,478; beats reference on every seed; beats reference on every seed"
+    },
+    "liquidity-drought": {
+     "rating": "neutral",
+     "reason": "+52,463 mean; of which VOUCHER_7300 +12,331; beats reference on every seed; beats reference on every seed"
+    },
+    "lychee-trend": {
+     "rating": "neutral",
+     "reason": "+54,694 mean; of which VOUCHER_7300 +11,918; beats reference on every seed; beats reference on every seed"
+    },
+    "mean-reversion-decay": {
+     "rating": "neutral",
+     "reason": "+54,635 mean; of which VOUCHER_7300 +12,230; beats reference on every seed; beats reference on every seed"
+    },
+    "momentum-crash": {
+     "rating": "neutral",
+     "reason": "+54,635 mean; of which VOUCHER_7300 +12,230; beats reference on every seed; beats reference on every seed"
+    },
+    "one-sided-flow": {
+     "rating": "weak",
+     "reason": "+54,626 mean; of which LYCHEE -3,217; edge over reference +42,331, well below its usual +55,289; beats reference on every seed; beats reference on every seed"
+    },
+    "pearl-plug-weakens": {
+     "rating": "neutral",
+     "reason": "+54,635 mean; of which VOUCHER_7300 +12,230; beats reference on every seed; beats reference on every seed"
+    },
+    "pearl-sum-shift": {
+     "rating": "neutral",
+     "reason": "+54,635 mean; of which VOUCHER_7300 +12,230; beats reference on every seed; beats reference on every seed"
+    },
+    "regime-flip": {
+     "rating": "neutral",
+     "reason": "+54,224 mean; of which VOUCHER_7300 +9,950; beats reference on every seed; beats reference on every seed"
+    },
+    "smile-flattens": {
+     "rating": "neutral",
+     "reason": "+50,858 mean; of which VOUCHER_7300 +11,717; beats reference on every seed; beats reference on every seed"
+    },
+    "smile-sticky-strike": {
+     "rating": "neutral",
+     "reason": "+51,489 mean; of which VOUCHER_7300 +11,561; beats reference on every seed; beats reference on every seed"
+    },
+    "tellurium-informed": {
+     "rating": "neutral",
+     "reason": "+54,635 mean; of which VOUCHER_7300 +12,230; beats reference on every seed; beats reference on every seed"
+    },
+    "tellurium-jumps-stick": {
+     "rating": "neutral",
+     "reason": "+54,635 mean; of which VOUCHER_7300 +12,230; beats reference on every seed; beats reference on every seed"
+    },
+    "tellurium-whipsaw": {
+     "rating": "neutral",
+     "reason": "+54,635 mean; of which VOUCHER_7300 +12,230; beats reference on every seed; beats reference on every seed"
+    },
+    "toxic-flow": {
+     "rating": "weak",
+     "reason": "+54,429 mean; of which LYCHEE -3,414; edge over reference +40,198, well below its usual +55,289; beats reference on every seed; beats reference on every seed"
+    },
+    "vol-clustering": {
+     "rating": "neutral",
+     "reason": "+52,234 mean; of which VOUCHER_7300 +11,899; beats reference on every seed; beats reference on every seed"
+    },
+    "vol-crush": {
+     "rating": "neutral",
+     "reason": "+51,240 mean; of which VOUCHER_7300 +12,348; beats reference on every seed; beats reference on every seed"
+    },
+    "vol-regime-switch": {
+     "rating": "neutral",
+     "reason": "+53,566 mean; of which VOUCHER_7300 +11,758; beats reference on every seed; beats reference on every seed"
+    },
+    "vol-spike-skew": {
+     "rating": "neutral",
+     "reason": "+55,243 mean; of which VOUCHER_7300 +12,011; beats reference on every seed; beats reference on every seed"
+    },
+    "wide-spreads": {
+     "rating": "weak",
+     "reason": "+30,940 mean; of which LYCHEE -2,095; well below its average of +52,734; edge over reference +30,183, well below its usual +55,289; beats reference on every seed; beats reference on every seed"
+    },
+    "anchor-break": {
+     "rating": "neutral",
+     "reason": "+54,635 mean; of which VOUCHER_7300 +12,230; beats reference on every seed; beats reference on every seed"
+    },
+    "black-swan-crash": {
+     "rating": "strong",
+     "reason": "+63,588 mean; of which VOUCHER_7000 +25,015; well above its average of +52,734; edge over reference +72,799, well above its usual +55,289; beats reference on every seed; beats reference on every seed"
+    },
+    "black-swan-squeeze": {
+     "rating": "weak",
+     "reason": "+38,572 mean; of which LYCHEE -26,795; well below its average of +52,734; edge over reference +34,262, well below its usual +55,289; beats reference on every seed; beats reference on every seed"
+    },
+    "flash-crash": {
+     "rating": "neutral",
+     "reason": "+53,958 mean; of which VOUCHER_7300 +12,008; beats reference on every seed; beats reference on every seed"
+    },
+    "liquidity-spiral": {
+     "rating": "weak",
+     "reason": "+37,060 mean; of which LYCHEE -15,288; well below its average of +52,734; edge over reference +45,865, well below its usual +55,289; beats reference on every seed; beats reference on every seed"
+    },
+    "opening-gap": {
+     "rating": "weak",
+     "reason": "+42,532 mean; of which LYCHEE -8,038; well below its average of +52,734; edge over reference +46,272, well below its usual +55,289; beats reference on every seed; beats reference on every seed"
+    },
+    "quant-quake": {
+     "rating": "neutral",
+     "reason": "+54,230 mean; of which VOUCHER_7300 +11,117; beats reference on every seed; beats reference on every seed"
+    },
+    "tellurium-storm": {
+     "rating": "neutral",
+     "reason": "+54,635 mean; of which VOUCHER_7300 +12,230; beats reference on every seed; beats reference on every seed"
+    },
+    "vol-explosion": {
+     "rating": "neutral",
+     "reason": "+52,157 mean; of which VOUCHER_7300 +17,689; beats reference on every seed; beats reference on every seed"
+    }
+   }
+  },
+  {
+   "strategy": "reference",
+   "weighted_pnl": -3362.995992063492,
+   "worst_case": "busy-day",
+   "worst_case_pnl": -10063.0,
+   "worst_seed_pnl": -26521.5,
+   "weak_cases": 35,
+   "mean_drawdown": 18864.196428571428,
+   "limit_breaches": 0,
+   "crashes": 0,
+   "product_pnl": {
+    "AMETHYST": 281.36208333333343,
+    "BLACK_PEARLS": 720.6058333333333,
+    "BLUE_PEARLS": -924.8538095238091,
+    "DRAGONFRUIT": 12.596686507936525,
+    "FRUIT_BASKET": 1017.9738095238104,
+    "GOLDEN_PEARLS": 32.66607142857144,
+    "GRANADILLA": -1081.844107142857,
+    "JELLY": 5015.931111111115,
+    "LYCHEE": -849.6160714285711,
+    "MANGOSTEEN": -1064.9977777777774,
+    "PAPER_LANTERNS": 667.0003571428573,
+    "PEANUT_BUTTER": -7874.564861111112,
+    "PINK_PEARLS": -519.3165277777777,
+    "TELLURIUM": 0.0,
+    "TOFFEE_CAKE": 200.64595238095222,
+    "VOUCHER_6800": 0.0,
+    "VOUCHER_7000": 0.0,
+    "VOUCHER_7200": 0.0,
+    "VOUCHER_7300": 0.0,
+    "VOUCHER_7400": 0.0,
+    "VOUCHER_7500": 0.0,
+    "VOUCHER_7600": 0.0,
+    "VOUCHER_7750": 0.0,
+    "VOUCHER_7900": 0.0,
+    "VOUCHER_8100": 0.0,
+    "WHITE_PEARLS": 1003.4152579365071
+   },
+   "cases": {
+    "busy-day": {
+     "tier": "observed",
+     "mean": -10063.0,
+     "worst": -17008.5,
+     "by_seed": {
+      "1": -3117.5,
+      "2": -17008.5
+     }
+    },
+    "quiet-day": {
+     "tier": "observed",
+     "mean": -5457.5,
+     "worst": -18730.5,
+     "by_seed": {
+      "1": 7815.5,
+      "2": -18730.5
+     }
+    },
+    "regular-day": {
+     "tier": "observed",
+     "mean": -3278.25,
+     "worst": -6601.0,
+     "by_seed": {
+      "1": 44.5,
+      "2": -6601.0
+     }
+    },
+    "regular-day-varied": {
+     "tier": "observed",
+     "mean": 1397.25,
+     "worst": -3653.0,
+     "by_seed": {
+      "1": 6447.5,
+      "2": -3653.0
+     }
+    },
+    "trends-continue": {
+     "tier": "observed",
+     "mean": -2718.25,
+     "worst": -5262.0,
+     "by_seed": {
+      "1": -174.5,
+      "2": -5262.0
+     }
+    },
+    "basket-dislocation": {
+     "tier": "plausible",
+     "mean": -2995.75,
+     "worst": -5883.0,
+     "by_seed": {
+      "1": -108.5,
+      "2": -5883.0
+     }
+    },
+    "clustered-arrivals": {
+     "tier": "plausible",
+     "mean": -10042.5,
+     "worst": -17514.5,
+     "by_seed": {
+      "1": -2570.5,
+      "2": -17514.5
+     }
+    },
+    "correlation-breakdown": {
+     "tier": "plausible",
+     "mean": -8041.75,
+     "worst": -16789.0,
+     "by_seed": {
+      "1": 705.5,
+      "2": -16789.0
+     }
+    },
+    "fat-tails": {
+     "tier": "plausible",
+     "mean": -1099.75,
+     "worst": -1148.5,
+     "by_seed": {
+      "1": -1148.5,
+      "2": -1051.0
+     }
+    },
+    "golden-continues": {
+     "tier": "plausible",
+     "mean": -4148.75,
+     "worst": -4992.0,
+     "by_seed": {
+      "1": -3305.5,
+      "2": -4992.0
+     }
+    },
+    "golden-flat": {
+     "tier": "plausible",
+     "mean": -3114.75,
+     "worst": -7108.0,
+     "by_seed": {
+      "1": 878.5,
+      "2": -7108.0
+     }
+    },
+    "golden-reverses": {
+     "tier": "plausible",
+     "mean": -2318.75,
+     "worst": -7871.0,
+     "by_seed": {
+      "1": 3233.5,
+      "2": -7871.0
+     }
+    },
+    "heavy-flow": {
+     "tier": "plausible",
+     "mean": -8210.25,
+     "worst": -17796.5,
+     "by_seed": {
+      "1": -17796.5,
+      "2": 1376.0
+     }
+    },
+    "intraday-seasonality": {
+     "tier": "plausible",
+     "mean": 1473.25,
+     "worst": -1544.5,
+     "by_seed": {
+      "1": 4491.0,
+      "2": -1544.5
+     }
+    },
+    "liquidity-drought": {
+     "tier": "plausible",
+     "mean": -2322.25,
+     "worst": -7656.0,
+     "by_seed": {
+      "1": -7656.0,
+      "2": 3011.5
+     }
+    },
+    "lychee-trend": {
+     "tier": "plausible",
+     "mean": -2882.75,
+     "worst": -10090.0,
+     "by_seed": {
+      "1": 4324.5,
+      "2": -10090.0
+     }
+    },
+    "mean-reversion-decay": {
+     "tier": "plausible",
+     "mean": -3300.75,
+     "worst": -6988.0,
+     "by_seed": {
+      "1": 386.5,
+      "2": -6988.0
+     }
+    },
+    "momentum-crash": {
+     "tier": "plausible",
+     "mean": 2939.25,
+     "worst": 2726.5,
+     "by_seed": {
+      "1": 2726.5,
+      "2": 3152.0
+     }
+    },
+    "one-sided-flow": {
+     "tier": "plausible",
+     "mean": 12295.5,
+     "worst": -26521.5,
+     "by_seed": {
+      "1": -26521.5,
+      "2": 51112.5
+     }
+    },
+    "pearl-plug-weakens": {
+     "tier": "plausible",
+     "mean": -3301.75,
+     "worst": -6640.0,
+     "by_seed": {
+      "1": 36.5,
+      "2": -6640.0
+     }
+    },
+    "pearl-sum-shift": {
+     "tier": "plausible",
+     "mean": -3128.25,
+     "worst": -6144.0,
+     "by_seed": {
+      "1": -112.5,
+      "2": -6144.0
+     }
+    },
+    "regime-flip": {
+     "tier": "plausible",
+     "mean": -3140.25,
+     "worst": -5260.0,
+     "by_seed": {
+      "1": -1020.5,
+      "2": -5260.0
+     }
+    },
+    "smile-flattens": {
+     "tier": "plausible",
+     "mean": -3278.25,
+     "worst": -6601.0,
+     "by_seed": {
+      "1": 44.5,
+      "2": -6601.0
+     }
+    },
+    "smile-sticky-strike": {
+     "tier": "plausible",
+     "mean": -3278.25,
+     "worst": -6601.0,
+     "by_seed": {
+      "1": 44.5,
+      "2": -6601.0
+     }
+    },
+    "tellurium-informed": {
+     "tier": "plausible",
+     "mean": -3278.25,
+     "worst": -6601.0,
+     "by_seed": {
+      "1": 44.5,
+      "2": -6601.0
+     }
+    },
+    "tellurium-jumps-stick": {
+     "tier": "plausible",
+     "mean": -3278.25,
+     "worst": -6601.0,
+     "by_seed": {
+      "1": 44.5,
+      "2": -6601.0
+     }
+    },
+    "tellurium-whipsaw": {
+     "tier": "plausible",
+     "mean": -3278.25,
+     "worst": -6601.0,
+     "by_seed": {
+      "1": 44.5,
+      "2": -6601.0
+     }
+    },
+    "toxic-flow": {
+     "tier": "plausible",
+     "mean": 14230.75,
+     "worst": -2541.5,
+     "by_seed": {
+      "1": -2541.5,
+      "2": 31003.0
+     }
+    },
+    "vol-clustering": {
+     "tier": "plausible",
+     "mean": -1146.25,
+     "worst": -3094.0,
+     "by_seed": {
+      "1": 801.5,
+      "2": -3094.0
+     }
+    },
+    "vol-crush": {
+     "tier": "plausible",
+     "mean": -3278.25,
+     "worst": -6601.0,
+     "by_seed": {
+      "1": 44.5,
+      "2": -6601.0
+     }
+    },
+    "vol-regime-switch": {
+     "tier": "plausible",
+     "mean": -756.25,
+     "worst": -2516.0,
+     "by_seed": {
+      "1": 1003.5,
+      "2": -2516.0
+     }
+    },
+    "vol-spike-skew": {
+     "tier": "plausible",
+     "mean": -3278.25,
+     "worst": -6601.0,
+     "by_seed": {
+      "1": 44.5,
+      "2": -6601.0
+     }
+    },
+    "wide-spreads": {
+     "tier": "plausible",
+     "mean": 757.25,
+     "worst": -3407.5,
+     "by_seed": {
+      "1": 4922.0,
+      "2": -3407.5
+     }
+    },
+    "anchor-break": {
+     "tier": "stress",
+     "mean": -3377.25,
+     "worst": -6799.0,
+     "by_seed": {
+      "1": 44.5,
+      "2": -6799.0
+     }
+    },
+    "black-swan-crash": {
+     "tier": "stress",
+     "mean": -9210.5,
+     "worst": -24834.5,
+     "by_seed": {
+      "1": 6413.5,
+      "2": -24834.5
+     }
+    },
+    "black-swan-squeeze": {
+     "tier": "stress",
+     "mean": 4309.75,
+     "worst": -12924.5,
+     "by_seed": {
+      "1": 21544.0,
+      "2": -12924.5
+     }
+    },
+    "flash-crash": {
+     "tier": "stress",
+     "mean": -3066.75,
+     "worst": -6883.5,
+     "by_seed": {
+      "1": 750.0,
+      "2": -6883.5
+     }
+    },
+    "liquidity-spiral": {
+     "tier": "stress",
+     "mean": -8805.25,
+     "worst": -21878.5,
+     "by_seed": {
+      "1": 4268.0,
+      "2": -21878.5
+     }
+    },
+    "opening-gap": {
+     "tier": "stress",
+     "mean": -3739.75,
+     "worst": -7561.0,
+     "by_seed": {
+      "1": 81.5,
+      "2": -7561.0
+     }
+    },
+    "quant-quake": {
+     "tier": "stress",
+     "mean": -7102.75,
+     "worst": -15866.0,
+     "by_seed": {
+      "1": 1660.5,
+      "2": -15866.0
+     }
+    },
+    "tellurium-storm": {
+     "tier": "stress",
+     "mean": -3278.25,
+     "worst": -6601.0,
+     "by_seed": {
+      "1": 44.5,
+      "2": -6601.0
+     }
+    },
+    "vol-explosion": {
+     "tier": "stress",
+     "mean": -1731.75,
+     "worst": -3153.0,
+     "by_seed": {
+      "1": -310.5,
+      "2": -3153.0
+     }
+    }
+   },
+   "verdicts": {
+    "busy-day": {
+     "rating": "weak",
+     "reason": "-10,063 mean; of which PEANUT_BUTTER -9,878; loses money; edge over S3 -65,726, well below its usual -55,289; behind S3 on every seed"
+    },
+    "quiet-day": {
+     "rating": "weak",
+     "reason": "-5,458 mean; of which PEANUT_BUTTER -6,891; loses money; behind S3 on every seed; seeds disagree (-18,730 to +7,816)"
+    },
+    "regular-day": {
+     "rating": "weak",
+     "reason": "-3,278 mean; of which PEANUT_BUTTER -9,504; loses money; behind S3 on every seed; seeds disagree (-6,601 to +44)"
+    },
+    "regular-day-varied": {
+     "rating": "neutral",
+     "reason": "+1,397 mean; of which JELLY +4,813; behind S3 on every seed; seeds disagree (-3,653 to +6,448)"
+    },
+    "trends-continue": {
+     "rating": "weak",
+     "reason": "-2,718 mean; of which PEANUT_BUTTER -9,504; loses money; behind S3 on every seed"
+    },
+    "basket-dislocation": {
+     "rating": "weak",
+     "reason": "-2,996 mean; of which PEANUT_BUTTER -9,504; loses money; behind S3 on every seed"
+    },
+    "clustered-arrivals": {
+     "rating": "weak",
+     "reason": "-10,042 mean; of which PEANUT_BUTTER -12,535; loses money; edge over S3 -64,504, well below its usual -55,289; behind S3 on every seed"
+    },
+    "correlation-breakdown": {
+     "rating": "weak",
+     "reason": "-8,042 mean; of which PEANUT_BUTTER -9,504; loses money; behind S3 on every seed; seeds disagree (-16,789 to +706)"
+    },
+    "fat-tails": {
+     "rating": "weak",
+     "reason": "-1,100 mean; of which PEANUT_BUTTER -8,174; loses money; behind S3 on every seed"
+    },
+    "golden-continues": {
+     "rating": "weak",
+     "reason": "-4,149 mean; of which PEANUT_BUTTER -9,504; loses money; behind S3 on every seed"
+    },
+    "golden-flat": {
+     "rating": "weak",
+     "reason": "-3,115 mean; of which PEANUT_BUTTER -9,504; loses money; behind S3 on every seed; seeds disagree (-7,108 to +878)"
+    },
+    "golden-reverses": {
+     "rating": "weak",
+     "reason": "-2,319 mean; of which PEANUT_BUTTER -9,504; loses money; behind S3 on every seed; seeds disagree (-7,871 to +3,234)"
+    },
+    "heavy-flow": {
+     "rating": "weak",
+     "reason": "-8,210 mean; of which FRUIT_BASKET -5,790; loses money; edge over S3 -64,870, well below its usual -55,289; behind S3 on every seed; seeds disagree (-17,796 to +1,376)"
+    },
+    "intraday-seasonality": {
+     "rating": "neutral",
+     "reason": "+1,473 mean; of which JELLY +3,780; behind S3 on every seed; seeds disagree (-1,544 to +4,491)"
+    },
+    "liquidity-drought": {
+     "rating": "weak",
+     "reason": "-2,322 mean; of which PEANUT_BUTTER -2,191; loses money; behind S3 on every seed; seeds disagree (-7,656 to +3,012)"
+    },
+    "lychee-trend": {
+     "rating": "weak",
+     "reason": "-2,883 mean; of which PEANUT_BUTTER -9,504; loses money; behind S3 on every seed; seeds disagree (-10,090 to +4,324)"
+    },
+    "mean-reversion-decay": {
+     "rating": "weak",
+     "reason": "-3,301 mean; of which PEANUT_BUTTER -9,504; loses money; behind S3 on every seed; seeds disagree (-6,988 to +386)"
+    },
+    "momentum-crash": {
+     "rating": "strong",
+     "reason": "+2,939 mean; of which JELLY +6,176; well above its average of -2,555; behind S3 on every seed"
+    },
+    "one-sided-flow": {
+     "rating": "strong",
+     "reason": "+12,296 mean; of which PEANUT_BUTTER +11,012; well above its average of -2,555; edge over S3 -42,331, well above its usual -55,289; behind S3 on every seed; seeds disagree (-26,522 to +51,112)"
+    },
+    "pearl-plug-weakens": {
+     "rating": "weak",
+     "reason": "-3,302 mean; of which PEANUT_BUTTER -9,504; loses money; behind S3 on every seed; seeds disagree (-6,640 to +36)"
+    },
+    "pearl-sum-shift": {
+     "rating": "weak",
+     "reason": "-3,128 mean; of which PEANUT_BUTTER -9,504; loses money; behind S3 on every seed"
+    },
+    "regime-flip": {
+     "rating": "weak",
+     "reason": "-3,140 mean; of which PEANUT_BUTTER -11,589; loses money; behind S3 on every seed"
+    },
+    "smile-flattens": {
+     "rating": "weak",
+     "reason": "-3,278 mean; of which PEANUT_BUTTER -9,504; loses money; behind S3 on every seed; seeds disagree (-6,601 to +44)"
+    },
+    "smile-sticky-strike": {
+     "rating": "weak",
+     "reason": "-3,278 mean; of which PEANUT_BUTTER -9,504; loses money; behind S3 on every seed; seeds disagree (-6,601 to +44)"
+    },
+    "tellurium-informed": {
+     "rating": "weak",
+     "reason": "-3,278 mean; of which PEANUT_BUTTER -9,504; loses money; behind S3 on every seed; seeds disagree (-6,601 to +44)"
+    },
+    "tellurium-jumps-stick": {
+     "rating": "weak",
+     "reason": "-3,278 mean; of which PEANUT_BUTTER -9,504; loses money; behind S3 on every seed; seeds disagree (-6,601 to +44)"
+    },
+    "tellurium-whipsaw": {
+     "rating": "weak",
+     "reason": "-3,278 mean; of which PEANUT_BUTTER -9,504; loses money; behind S3 on every seed; seeds disagree (-6,601 to +44)"
+    },
+    "toxic-flow": {
+     "rating": "strong",
+     "reason": "+14,231 mean; of which PEANUT_BUTTER +9,260; well above its average of -2,555; edge over S3 -40,198, well above its usual -55,289; behind S3 on every seed; seeds disagree (-2,542 to +31,003)"
+    },
+    "vol-clustering": {
+     "rating": "weak",
+     "reason": "-1,146 mean; of which PEANUT_BUTTER -8,469; loses money; behind S3 on every seed; seeds disagree (-3,094 to +802)"
+    },
+    "vol-crush": {
+     "rating": "weak",
+     "reason": "-3,278 mean; of which PEANUT_BUTTER -9,504; loses money; behind S3 on every seed; seeds disagree (-6,601 to +44)"
+    },
+    "vol-regime-switch": {
+     "rating": "weak",
+     "reason": "-756 mean; of which PEANUT_BUTTER -4,700; loses money; behind S3 on every seed; seeds disagree (-2,516 to +1,004)"
+    },
+    "vol-spike-skew": {
+     "rating": "weak",
+     "reason": "-3,278 mean; of which PEANUT_BUTTER -9,504; loses money; behind S3 on every seed; seeds disagree (-6,601 to +44)"
+    },
+    "wide-spreads": {
+     "rating": "strong",
+     "reason": "+757 mean; of which JELLY +6,446; edge over S3 -30,183, well above its usual -55,289; behind S3 on every seed; seeds disagree (-3,408 to +4,922)"
+    },
+    "anchor-break": {
+     "rating": "weak",
+     "reason": "-3,377 mean; of which PEANUT_BUTTER -9,504; loses money; behind S3 on every seed; seeds disagree (-6,799 to +44)"
+    },
+    "black-swan-crash": {
+     "rating": "weak",
+     "reason": "-9,210 mean; of which PINK_PEARLS -18,328; loses money; edge over S3 -72,799, well below its usual -55,289; behind S3 on every seed; seeds disagree (-24,834 to +6,414)"
+    },
+    "black-swan-squeeze": {
+     "rating": "strong",
+     "reason": "+4,310 mean; of which PINK_PEARLS +9,008; well above its average of -2,555; edge over S3 -34,262, well above its usual -55,289; behind S3 on every seed; seeds disagree (-12,924 to +21,544)"
+    },
+    "flash-crash": {
+     "rating": "weak",
+     "reason": "-3,067 mean; of which PEANUT_BUTTER -9,488; loses money; behind S3 on every seed; seeds disagree (-6,884 to +750)"
+    },
+    "liquidity-spiral": {
+     "rating": "weak",
+     "reason": "-8,805 mean; of which PEANUT_BUTTER -8,122; loses money; edge over S3 -45,865, well above its usual -55,289; behind S3 on every seed; seeds disagree (-21,878 to +4,268)"
+    },
+    "opening-gap": {
+     "rating": "weak",
+     "reason": "-3,740 mean; of which PEANUT_BUTTER -9,496; loses money; edge over S3 -46,272, well above its usual -55,289; behind S3 on every seed; seeds disagree (-7,561 to +82)"
+    },
+    "quant-quake": {
+     "rating": "weak",
+     "reason": "-7,103 mean; of which PEANUT_BUTTER -9,504; loses money; behind S3 on every seed; seeds disagree (-15,866 to +1,660)"
+    },
+    "tellurium-storm": {
+     "rating": "weak",
+     "reason": "-3,278 mean; of which PEANUT_BUTTER -9,504; loses money; behind S3 on every seed; seeds disagree (-6,601 to +44)"
+    },
+    "vol-explosion": {
+     "rating": "weak",
+     "reason": "-1,732 mean; of which PEANUT_BUTTER -8,432; loses money; behind S3 on every seed"
+    }
+   }
+  }
+ ],
+ "pairs": [
+  {
+   "strategy": "reference",
+   "diff": 57148.9214484127,
+   "low": 54930.43405505952,
+   "high": 59630.553172619046
+  }
+ ],
+ "real": {
+  "S3": {
+   "-2": {
+    "total": 62542.0,
+    "product_pnl": {
+     "AMETHYST": 0.0,
+     "BLACK_PEARLS": 0.0,
+     "BLUE_PEARLS": 0.0,
+     "DRAGONFRUIT": 0.0,
+     "FRUIT_BASKET": 0.0,
+     "GOLDEN_PEARLS": 0.0,
+     "GRANADILLA": 0.0,
+     "JELLY": 0.0,
+     "LYCHEE": -3512.0,
+     "MANGOSTEEN": 0.0,
+     "PAPER_LANTERNS": 0.0,
+     "PEANUT_BUTTER": 0.0,
+     "PINK_PEARLS": 0.0,
+     "TELLURIUM": 0.0,
+     "TOFFEE_CAKE": 0.0,
+     "VOUCHER_6800": -2185.0,
+     "VOUCHER_7000": 2216.0,
+     "VOUCHER_7200": 594.0,
+     "VOUCHER_7300": 14369.0,
+     "VOUCHER_7400": 13475.0,
+     "VOUCHER_7500": 12122.0,
+     "VOUCHER_7600": 12976.0,
+     "VOUCHER_7750": 6001.0,
+     "VOUCHER_7900": 4471.5,
+     "VOUCHER_8100": 2014.5,
+     "WHITE_PEARLS": 0.0
+    },
+    "limit_breaches": 0,
+    "seconds": 28.895899833994918
+   },
+   "-1": {
+    "total": 54232.0,
+    "product_pnl": {
+     "AMETHYST": 0.0,
+     "BLACK_PEARLS": 0.0,
+     "BLUE_PEARLS": 0.0,
+     "DRAGONFRUIT": 0.0,
+     "FRUIT_BASKET": 0.0,
+     "GOLDEN_PEARLS": 0.0,
+     "GRANADILLA": 0.0,
+     "JELLY": 0.0,
+     "LYCHEE": 4358.0,
+     "MANGOSTEEN": 0.0,
+     "PAPER_LANTERNS": 0.0,
+     "PEANUT_BUTTER": 0.0,
+     "PINK_PEARLS": 0.0,
+     "TELLURIUM": 0.0,
+     "TOFFEE_CAKE": 0.0,
+     "VOUCHER_6800": -5021.0,
+     "VOUCHER_7000": 551.0,
+     "VOUCHER_7200": 3018.0,
+     "VOUCHER_7300": 8834.0,
+     "VOUCHER_7400": 10911.0,
+     "VOUCHER_7500": 11946.0,
+     "VOUCHER_7600": 8526.0,
+     "VOUCHER_7750": 7251.0,
+     "VOUCHER_7900": 3156.0,
+     "VOUCHER_8100": 702.0,
+     "WHITE_PEARLS": 0.0
+    },
+    "limit_breaches": 0,
+    "seconds": 46.136064166988945
+   },
+   "0": {
+    "total": 45624.0,
+    "product_pnl": {
+     "AMETHYST": 0.0,
+     "BLACK_PEARLS": 0.0,
+     "BLUE_PEARLS": 0.0,
+     "DRAGONFRUIT": 0.0,
+     "FRUIT_BASKET": 0.0,
+     "GOLDEN_PEARLS": 0.0,
+     "GRANADILLA": 0.0,
+     "JELLY": 0.0,
+     "LYCHEE": -5482.5,
+     "MANGOSTEEN": 0.0,
+     "PAPER_LANTERNS": 0.0,
+     "PEANUT_BUTTER": 0.0,
+     "PINK_PEARLS": 0.0,
+     "TELLURIUM": 0.0,
+     "TOFFEE_CAKE": 0.0,
+     "VOUCHER_6800": -1366.0,
+     "VOUCHER_7000": 11327.0,
+     "VOUCHER_7200": 8742.0,
+     "VOUCHER_7300": 8228.0,
+     "VOUCHER_7400": 7506.0,
+     "VOUCHER_7500": 6090.0,
+     "VOUCHER_7600": 4712.0,
+     "VOUCHER_7750": 3236.0,
+     "VOUCHER_7900": 2122.5,
+     "VOUCHER_8100": 509.0,
+     "WHITE_PEARLS": 0.0
+    },
+    "limit_breaches": 0,
+    "seconds": 57.82583724998403
+   }
+  }
+ }
+}

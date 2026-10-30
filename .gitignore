@@ -1,0 +1,10 @@
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.claude/
+.DS_Store
+*.log
+# generated intermediate builds; the submissions are the trader*.py files at the root
+tournament/builds/
+# not part of the tournament
+trader2.py

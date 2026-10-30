@@ -1,0 +1,590 @@
+{
+ "suite": "dev",
+ "seeds": [
+  1,
+  2
+ ],
+ "rows": [
+  {
+   "strategy": "trend_winsor",
+   "weighted_pnl": 1260.6666666666665,
+   "worst_case": "black-swan-crash",
+   "worst_case_pnl": -3612.5,
+   "worst_seed_pnl": -6565.5,
+   "weak_cases": 3,
+   "mean_drawdown": 3655.7916666666665,
+   "limit_breaches": 0,
+   "crashes": 0,
+   "product_pnl": {
+    "AMETHYST": 0.0,
+    "BLACK_PEARLS": 0.0,
+    "BLUE_PEARLS": 0.0,
+    "DRAGONFRUIT": 397.5416666666667,
+    "FRUIT_BASKET": 696.1916666666666,
+    "GOLDEN_PEARLS": 0.0,
+    "GRANADILLA": 254.62499999999997,
+    "JELLY": 0.0,
+    "LYCHEE": 0.0,
+    "MANGOSTEEN": -156.54999999999998,
+    "PAPER_LANTERNS": 0.0,
+    "PEANUT_BUTTER": 68.85833333333332,
+    "PINK_PEARLS": 0.0,
+    "TELLURIUM": 0.0,
+    "TOFFEE_CAKE": 0.0,
+    "VOUCHER_6800": 0.0,
+    "VOUCHER_7000": 0.0,
+    "VOUCHER_7200": 0.0,
+    "VOUCHER_7300": 0.0,
+    "VOUCHER_7400": 0.0,
+    "VOUCHER_7500": 0.0,
+    "VOUCHER_7600": 0.0,
+    "VOUCHER_7750": 0.0,
+    "VOUCHER_7900": 0.0,
+    "VOUCHER_8100": 0.0,
+    "WHITE_PEARLS": 0.0
+   },
+   "cases": {
+    "black-swan-crash": {
+     "tier": "stress",
+     "mean": -3612.5,
+     "worst": -6565.5,
+     "by_seed": {
+      "1": -659.5,
+      "2": -6565.5
+     }
+    },
+    "liquidity-spiral": {
+     "tier": "stress",
+     "mean": -2029.5,
+     "worst": -3743.0,
+     "by_seed": {
+      "1": -3743.0,
+      "2": -316.0
+     }
+    },
+    "trends-continue": {
+     "tier": "observed",
+     "mean": 1991.5,
+     "worst": 1145.5,
+     "by_seed": {
+      "1": 2837.5,
+      "2": 1145.5
+     }
+    },
+    "regime-flip": {
+     "tier": "plausible",
+     "mean": 1133.0,
+     "worst": 852.5,
+     "by_seed": {
+      "1": 1413.5,
+      "2": 852.5
+     }
+    },
+    "flash-crash": {
+     "tier": "stress",
+     "mean": 403.75,
+     "worst": 78.5,
+     "by_seed": {
+      "1": 729.0,
+      "2": 78.5
+     }
+    },
+    "momentum-crash": {
+     "tier": "plausible",
+     "mean": 469.5,
+     "worst": 353.5,
+     "by_seed": {
+      "1": 585.5,
+      "2": 353.5
+     }
+    }
+   },
+   "verdicts": {
+    "black-swan-crash": {
+     "rating": "weak",
+     "reason": "-3,612 mean; of which DRAGONFRUIT -1,655; loses money"
+    },
+    "liquidity-spiral": {
+     "rating": "weak",
+     "reason": "-2,030 mean; of which DRAGONFRUIT -2,087; loses money"
+    },
+    "trends-continue": {
+     "rating": "strong",
+     "reason": "+1,992 mean; of which FRUIT_BASKET +984; well above its average of -274; beats reference on every seed"
+    },
+    "regime-flip": {
+     "rating": "neutral",
+     "reason": "+1,133 mean; of which DRAGONFRUIT +691; beats reference on every seed"
+    },
+    "flash-crash": {
+     "rating": "neutral",
+     "reason": "+404 mean; of which FRUIT_BASKET +626"
+    },
+    "momentum-crash": {
+     "rating": "weak",
+     "reason": "+470 mean; of which MANGOSTEEN -236; edge over S6, reference -1,235, well below its usual +1,920; behind reference on every seed"
+    }
+   }
+  },
+  {
+   "strategy": "S6",
+   "weighted_pnl": 1238.0083333333332,
+   "worst_case": "black-swan-crash",
+   "worst_case_pnl": -4292.25,
+   "worst_seed_pnl": -8235.0,
+   "weak_cases": 3,
+   "mean_drawdown": 4033.3333333333335,
+   "limit_breaches": 0,
+   "crashes": 0,
+   "product_pnl": {
+    "AMETHYST": 0.0,
+    "BLACK_PEARLS": 0.0,
+    "BLUE_PEARLS": 0.0,
+    "DRAGONFRUIT": 374.8833333333333,
+    "FRUIT_BASKET": 696.1916666666666,
+    "GOLDEN_PEARLS": 0.0,
+    "GRANADILLA": 254.62499999999997,
+    "JELLY": 0.0,
+    "LYCHEE": 0.0,
+    "MANGOSTEEN": -156.54999999999998,
+    "PAPER_LANTERNS": 0.0,
+    "PEANUT_BUTTER": 68.85833333333332,
+    "PINK_PEARLS": 0.0,
+    "TELLURIUM": 0.0,
+    "TOFFEE_CAKE": 0.0,
+    "VOUCHER_6800": 0.0,
+    "VOUCHER_7000": 0.0,
+    "VOUCHER_7200": 0.0,
+    "VOUCHER_7300": 0.0,
+    "VOUCHER_7400": 0.0,
+    "VOUCHER_7500": 0.0,
+    "VOUCHER_7600": 0.0,
+    "VOUCHER_7750": 0.0,
+    "VOUCHER_7900": 0.0,
+    "VOUCHER_8100": 0.0,
+    "WHITE_PEARLS": 0.0
+   },
+   "cases": {
+    "black-swan-crash": {
+     "tier": "stress",
+     "mean": -4292.25,
+     "worst": -8235.0,
+     "by_seed": {
+      "1": -349.5,
+      "2": -8235.0
+     }
+    },
+    "liquidity-spiral": {
+     "tier": "stress",
+     "mean": -2029.5,
+     "worst": -3743.0,
+     "by_seed": {
+      "1": -3743.0,
+      "2": -316.0
+     }
+    },
+    "trends-continue": {
+     "tier": "observed",
+     "mean": 1991.5,
+     "worst": 1145.5,
+     "by_seed": {
+      "1": 2837.5,
+      "2": 1145.5
+     }
+    },
+    "regime-flip": {
+     "tier": "plausible",
+     "mean": 1133.0,
+     "worst": 852.5,
+     "by_seed": {
+      "1": 1413.5,
+      "2": 852.5
+     }
+    },
+    "flash-crash": {
+     "tier": "stress",
+     "mean": 403.75,
+     "worst": 78.5,
+     "by_seed": {
+      "1": 729.0,
+      "2": 78.5
+     }
+    },
+    "momentum-crash": {
+     "tier": "plausible",
+     "mean": 469.5,
+     "worst": 353.5,
+     "by_seed": {
+      "1": 585.5,
+      "2": 353.5
+     }
+    }
+   },
+   "verdicts": {
+    "black-swan-crash": {
+     "rating": "weak",
+     "reason": "-4,292 mean; of which DRAGONFRUIT -2,335; loses money"
+    },
+    "liquidity-spiral": {
+     "rating": "weak",
+     "reason": "-2,030 mean; of which DRAGONFRUIT -2,087; loses money; edge over trend_winsor, reference +3,388, well above its usual +1,750"
+    },
+    "trends-continue": {
+     "rating": "strong",
+     "reason": "+1,992 mean; of which FRUIT_BASKET +984; well above its average of -387; beats reference on every seed"
+    },
+    "regime-flip": {
+     "rating": "neutral",
+     "reason": "+1,133 mean; of which DRAGONFRUIT +691; beats reference on every seed"
+    },
+    "flash-crash": {
+     "rating": "neutral",
+     "reason": "+404 mean; of which FRUIT_BASKET +626"
+    },
+    "momentum-crash": {
+     "rating": "weak",
+     "reason": "+470 mean; of which MANGOSTEEN -236; edge over trend_winsor, reference -1,235, well below its usual +1,750; behind reference on every seed"
+    }
+   }
+  },
+  {
+   "strategy": "reference",
+   "weighted_pnl": -2363.85,
+   "worst_case": "black-swan-crash",
+   "worst_case_pnl": -9210.5,
+   "worst_seed_pnl": -24834.5,
+   "weak_cases": 5,
+   "mean_drawdown": 22937.291666666668,
+   "limit_breaches": 0,
+   "crashes": 0,
+   "product_pnl": {
+    "AMETHYST": 278.825,
+    "BLACK_PEARLS": 792.4416666666667,
+    "BLUE_PEARLS": -20.283333333333303,
+    "DRAGONFRUIT": 333.2333333333333,
+    "FRUIT_BASKET": 2081.1749999999997,
+    "GOLDEN_PEARLS": -201.56666666666666,
+    "GRANADILLA": -959.625,
+    "JELLY": 6166.441666666666,
+    "LYCHEE": -1001.0166666666667,
+    "MANGOSTEEN": -877.6583333333332,
+    "PAPER_LANTERNS": 1448.2999999999997,
+    "PEANUT_BUTTER": -9602.525,
+    "PINK_PEARLS": -922.8083333333332,
+    "TELLURIUM": 0.0,
+    "TOFFEE_CAKE": -480.7916666666667,
+    "VOUCHER_6800": 0.0,
+    "VOUCHER_7000": 0.0,
+    "VOUCHER_7200": 0.0,
+    "VOUCHER_7300": 0.0,
+    "VOUCHER_7400": 0.0,
+    "VOUCHER_7500": 0.0,
+    "VOUCHER_7600": 0.0,
+    "VOUCHER_7750": 0.0,
+    "VOUCHER_7900": 0.0,
+    "VOUCHER_8100": 0.0,
+    "WHITE_PEARLS": 602.0083333333333
+   },
+   "cases": {
+    "black-swan-crash": {
+     "tier": "stress",
+     "mean": -9210.5,
+     "worst": -24834.5,
+     "by_seed": {
+      "1": 6413.5,
+      "2": -24834.5
+     }
+    },
+    "liquidity-spiral": {
+     "tier": "stress",
+     "mean": -8805.25,
+     "worst": -21878.5,
+     "by_seed": {
+      "1": 4268.0,
+      "2": -21878.5
+     }
+    },
+    "trends-continue": {
+     "tier": "observed",
+     "mean": -2718.25,
+     "worst": -5262.0,
+     "by_seed": {
+      "1": -174.5,
+      "2": -5262.0
+     }
+    },
+    "regime-flip": {
+     "tier": "plausible",
+     "mean": -3140.25,
+     "worst": -5260.0,
+     "by_seed": {
+      "1": -1020.5,
+      "2": -5260.0
+     }
+    },
+    "flash-crash": {
+     "tier": "stress",
+     "mean": -3066.75,
+     "worst": -6883.5,
+     "by_seed": {
+      "1": 750.0,
+      "2": -6883.5
+     }
+    },
+    "momentum-crash": {
+     "tier": "plausible",
+     "mean": 2939.25,
+     "worst": 2726.5,
+     "by_seed": {
+      "1": 2726.5,
+      "2": 3152.0
+     }
+    }
+   },
+   "verdicts": {
+    "black-swan-crash": {
+     "rating": "weak",
+     "reason": "-9,210 mean; of which PINK_PEARLS -18,328; loses money; seeds disagree (-24,834 to +6,414)"
+    },
+    "liquidity-spiral": {
+     "rating": "weak",
+     "reason": "-8,805 mean; of which PEANUT_BUTTER -8,122; loses money; edge over S6, trend_winsor -6,776, well below its usual -3,670; seeds disagree (-21,878 to +4,268)"
+    },
+    "trends-continue": {
+     "rating": "weak",
+     "reason": "-2,718 mean; of which PEANUT_BUTTER -9,504; loses money; behind S6, trend_winsor on every seed"
+    },
+    "regime-flip": {
+     "rating": "weak",
+     "reason": "-3,140 mean; of which PEANUT_BUTTER -11,589; loses money; behind S6, trend_winsor on every seed"
+    },
+    "flash-crash": {
+     "rating": "weak",
+     "reason": "-3,067 mean; of which PEANUT_BUTTER -9,488; loses money; seeds disagree (-6,884 to +750)"
+    },
+    "momentum-crash": {
+     "rating": "strong",
+     "reason": "+2,939 mean; of which JELLY +6,176; well above its average of -4,000; edge over S6, trend_winsor +2,470, well above its usual -3,670; beats S6, trend_winsor on every seed"
+    }
+   }
+  }
+ ],
+ "pairs": [
+  {
+   "strategy": "S6",
+   "diff": 22.65833333333333,
+   "low": 0.0,
+   "high": 67.97500000000001
+  },
+  {
+   "strategy": "reference",
+   "diff": 3624.5166666666664,
+   "low": 2502.891666666667,
+   "high": 4746.141666666666
+  }
+ ],
+ "real": {
+  "S6": {
+   "-2": {
+    "total": 1451.5,
+    "product_pnl": {
+     "AMETHYST": 0.0,
+     "BLACK_PEARLS": 0.0,
+     "BLUE_PEARLS": 0.0,
+     "DRAGONFRUIT": 1628.0,
+     "FRUIT_BASKET": -1548.0,
+     "GOLDEN_PEARLS": 0.0,
+     "GRANADILLA": 1217.0,
+     "JELLY": 0.0,
+     "LYCHEE": 0.0,
+     "MANGOSTEEN": 143.5,
+     "PAPER_LANTERNS": 0.0,
+     "PEANUT_BUTTER": 11.0,
+     "PINK_PEARLS": 0.0,
+     "TELLURIUM": 0.0,
+     "TOFFEE_CAKE": 0.0,
+     "VOUCHER_6800": 0.0,
+     "VOUCHER_7000": 0.0,
+     "VOUCHER_7200": 0.0,
+     "VOUCHER_7300": 0.0,
+     "VOUCHER_7400": 0.0,
+     "VOUCHER_7500": 0.0,
+     "VOUCHER_7600": 0.0,
+     "VOUCHER_7750": 0.0,
+     "VOUCHER_7900": 0.0,
+     "VOUCHER_8100": 0.0,
+     "WHITE_PEARLS": 0.0
+    },
+    "limit_breaches": 0,
+    "seconds": 10.932142333011143
+   },
+   "-1": {
+    "total": 666.5,
+    "product_pnl": {
+     "AMETHYST": 0.0,
+     "BLACK_PEARLS": 0.0,
+     "BLUE_PEARLS": 0.0,
+     "DRAGONFRUIT": 1589.0,
+     "FRUIT_BASKET": -3629.0,
+     "GOLDEN_PEARLS": 0.0,
+     "GRANADILLA": 1547.0,
+     "JELLY": 0.0,
+     "LYCHEE": 0.0,
+     "MANGOSTEEN": 768.5,
+     "PAPER_LANTERNS": 0.0,
+     "PEANUT_BUTTER": 391.0,
+     "PINK_PEARLS": 0.0,
+     "TELLURIUM": 0.0,
+     "TOFFEE_CAKE": 0.0,
+     "VOUCHER_6800": 0.0,
+     "VOUCHER_7000": 0.0,
+     "VOUCHER_7200": 0.0,
+     "VOUCHER_7300": 0.0,
+     "VOUCHER_7400": 0.0,
+     "VOUCHER_7500": 0.0,
+     "VOUCHER_7600": 0.0,
+     "VOUCHER_7750": 0.0,
+     "VOUCHER_7900": 0.0,
+     "VOUCHER_8100": 0.0,
+     "WHITE_PEARLS": 0.0
+    },
+    "limit_breaches": 0,
+    "seconds": 11.487329584022518
+   },
+   "0": {
+    "total": 1669.0,
+    "product_pnl": {
+     "AMETHYST": 0.0,
+     "BLACK_PEARLS": 0.0,
+     "BLUE_PEARLS": 0.0,
+     "DRAGONFRUIT": 4458.0,
+     "FRUIT_BASKET": -1106.0,
+     "GOLDEN_PEARLS": 0.0,
+     "GRANADILLA": -1242.0,
+     "JELLY": 0.0,
+     "LYCHEE": 0.0,
+     "MANGOSTEEN": 79.0,
+     "PAPER_LANTERNS": 0.0,
+     "PEANUT_BUTTER": -520.0,
+     "PINK_PEARLS": 0.0,
+     "TELLURIUM": 0.0,
+     "TOFFEE_CAKE": 0.0,
+     "VOUCHER_6800": 0.0,
+     "VOUCHER_7000": 0.0,
+     "VOUCHER_7200": 0.0,
+     "VOUCHER_7300": 0.0,
+     "VOUCHER_7400": 0.0,
+     "VOUCHER_7500": 0.0,
+     "VOUCHER_7600": 0.0,
+     "VOUCHER_7750": 0.0,
+     "VOUCHER_7900": 0.0,
+     "VOUCHER_8100": 0.0,
+     "WHITE_PEARLS": 0.0
+    },
+    "limit_breaches": 0,
+    "seconds": 6.965963042021031
+   }
+  },
+  "trend_winsor": {
+   "-2": {
+    "total": 1451.5,
+    "product_pnl": {
+     "AMETHYST": 0.0,
+     "BLACK_PEARLS": 0.0,
+     "BLUE_PEARLS": 0.0,
+     "DRAGONFRUIT": 1628.0,
+     "FRUIT_BASKET": -1548.0,
+     "GOLDEN_PEARLS": 0.0,
+     "GRANADILLA": 1217.0,
+     "JELLY": 0.0,
+     "LYCHEE": 0.0,
+     "MANGOSTEEN": 143.5,
+     "PAPER_LANTERNS": 0.0,
+     "PEANUT_BUTTER": 11.0,
+     "PINK_PEARLS": 0.0,
+     "TELLURIUM": 0.0,
+     "TOFFEE_CAKE": 0.0,
+     "VOUCHER_6800": 0.0,
+     "VOUCHER_7000": 0.0,
+     "VOUCHER_7200": 0.0,
+     "VOUCHER_7300": 0.0,
+     "VOUCHER_7400": 0.0,
+     "VOUCHER_7500": 0.0,
+     "VOUCHER_7600": 0.0,
+     "VOUCHER_7750": 0.0,
+     "VOUCHER_7900": 0.0,
+     "VOUCHER_8100": 0.0,
+     "WHITE_PEARLS": 0.0
+    },
+    "limit_breaches": 0,
+    "seconds": 6.060518082987983
+   },
+   "-1": {
+    "total": 666.5,
+    "product_pnl": {
+     "AMETHYST": 0.0,
+     "BLACK_PEARLS": 0.0,
+     "BLUE_PEARLS": 0.0,
+     "DRAGONFRUIT": 1589.0,
+     "FRUIT_BASKET": -3629.0,
+     "GOLDEN_PEARLS": 0.0,
+     "GRANADILLA": 1547.0,
+     "JELLY": 0.0,
+     "LYCHEE": 0.0,
+     "MANGOSTEEN": 768.5,
+     "PAPER_LANTERNS": 0.0,
+     "PEANUT_BUTTER": 391.0,
+     "PINK_PEARLS": 0.0,
+     "TELLURIUM": 0.0,
+     "TOFFEE_CAKE": 0.0,
+     "VOUCHER_6800": 0.0,
+     "VOUCHER_7000": 0.0,
+     "VOUCHER_7200": 0.0,
+     "VOUCHER_7300": 0.0,
+     "VOUCHER_7400": 0.0,
+     "VOUCHER_7500": 0.0,
+     "VOUCHER_7600": 0.0,
+     "VOUCHER_7750": 0.0,
+     "VOUCHER_7900": 0.0,
+     "VOUCHER_8100": 0.0,
+     "WHITE_PEARLS": 0.0
+    },
+    "limit_breaches": 0,
+    "seconds": 6.645651541999541
+   },
+   "0": {
+    "total": 1669.0,
+    "product_pnl": {
+     "AMETHYST": 0.0,
+     "BLACK_PEARLS": 0.0,
+     "BLUE_PEARLS": 0.0,
+     "DRAGONFRUIT": 4458.0,
+     "FRUIT_BASKET": -1106.0,
+     "GOLDEN_PEARLS": 0.0,
+     "GRANADILLA": -1242.0,
+     "JELLY": 0.0,
+     "LYCHEE": 0.0,
+     "MANGOSTEEN": 79.0,
+     "PAPER_LANTERNS": 0.0,
+     "PEANUT_BUTTER": -520.0,
+     "PINK_PEARLS": 0.0,
+     "TELLURIUM": 0.0,
+     "TOFFEE_CAKE": 0.0,
+     "VOUCHER_6800": 0.0,
+     "VOUCHER_7000": 0.0,
+     "VOUCHER_7200": 0.0,
+     "VOUCHER_7300": 0.0,
+     "VOUCHER_7400": 0.0,
+     "VOUCHER_7500": 0.0,
+     "VOUCHER_7600": 0.0,
+     "VOUCHER_7750": 0.0,
+     "VOUCHER_7900": 0.0,
+     "VOUCHER_8100": 0.0,
+     "WHITE_PEARLS": 0.0
+    },
+    "limit_breaches": 0,
+    "seconds": 5.61181545900763
+   }
+  }
+ }
+}
